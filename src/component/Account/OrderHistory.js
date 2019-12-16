@@ -111,6 +111,20 @@ class OrderHistory extends Component {
                         <span>Success! We received your payment. Your order will be processed soon.</span>
                         <strong className="text-white">Transaction ID:{ViewOrderdata.orderid}</strong>
                       </div>
+                      <div> 
+                    <img alt="img01"  src={require(`../../assets/images/logo2.png`)}  className="float-left" width="350px"/>
+                    <Row>
+                    <Col lg={6} className="text-lg-righ mt-4 mt-lg-0">
+                    <ul className = "list-unstyled mb-0">
+                      <li className = "text-lg-right" > <span>Electronic Solutions </span> </li>
+                      <li className = "text-lg-right"> <span>9001 Stockdale Hwy </span> </li>
+                      <li className = "text-lg-right"> <span>Bakersfield, CA  </span> </li>
+                      <li className = "text-lg-right"> <span>93311 </span> </li>
+                      <li className = "text-lg-right"> <span>support@esolutions.com </span> </li>
+                    </ul>
+                    </Col>
+                    </Row>
+                    </div>
                       <div className="delivery p-4 p-md-5 bg-light text-center">
                         <span className="h5">Expected Date Of Delivery</span>
                         <h2 className="mb-0 mt-2">{ViewOrderdata.date}</h2>
@@ -120,11 +134,11 @@ class OrderHistory extends Component {
                         <Col lg={6}>
                         <h6>Ship To</h6>
                           <ul className="list-unstyled mb-0">
-                            <li>Ciyashop</li>
+                            <li>Omar Gonzalez</li>
                             <li>#1457</li>
-                            <li>126-632-2345</li>
-                            <li>support@ciyashop.com</li>
-                            <li>1635 Franklin Street Montgomery, Near Sherwood Mall. AL 36104</li>
+                            <li>661-456-7891</li>
+                            <li>omar@gmail.com</li>
+                            <li>2145 2nd Street, Bakersfield, CA 93311</li>
                           </ul>
                         </Col>
                         <Col lg={6} className="text-lg-right mt-4 mt-lg-0">
@@ -144,7 +158,7 @@ class OrderHistory extends Component {
                           <tbody>
                             <tr className="ordered-item">
                               <td className="ordered-image">
-                                 <img alt="img 01"  src={require(`../../assets/images/shop/img-02.jpg`)} className="img-fluid" />
+                                 <img alt="img 01"  src={require(`../../assets/images/shop/mainpage/beats.jpg`)} className="img-fluid" />
                               </td>
                               <td  className="ordered-name">
                                 <h6 className="mb-0">Product Name</h6>
@@ -171,7 +185,7 @@ class OrderHistory extends Component {
                             </tr>
                             <tr>
                             <td>Shipping</td>
-                              <td className="text-right">$50.00</td>
+                              <td className="text-right">$10.00</td>
                             </tr>
                             <tr>
                             <td>Tax(GST)</td>

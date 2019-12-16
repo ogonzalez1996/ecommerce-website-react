@@ -3,20 +3,20 @@ export default [
 {
     "profile":
         {
-            "firstname":"Alice",
-            "lastname":"Williams",
+            "firstname":"Omar",
+            "lastname":"Gonzalez",
             "gender":"Male",
-            "dob":"2019-07-03",
-            "phoneno":"1266322345",
-            "email":"support@ciyashop.com",
-            "address":"1635 Franklin Street Montgomery, Near Sherwood Mall. AL 36104",
-            "companyname" : "Ciya Shop",
-            "address":"4402 Worthington Drive",
+            "dob":"1998-07-03",
+            "phoneno":"6615678910",
+            "email":"omar@gmail.com",
+            "address":"2145 2nd Street, CA 93311",
+            "companyname" : "CSUB",
+            "address":"2145 2nd Street",
             "streetno":"Richardson",
             "state":"Near Sherwood Mall",
-            "zipcode":"361046",
+            "zipcode":"93311",
             "country":"US",
-            "phone":"5685486123"
+            "phone":"6615678910"
         }
     ,
     "billingaddress":

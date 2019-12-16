@@ -118,6 +118,22 @@ const date = new Date();
                       <span>Success! We received your payment. Your order will be processed soon.</span>
                       <strong className="text-white">Transaction ID:637686G154T154485</strong>
                     </div>
+                    <div> 
+                    <img alt="img01"  src={require(`../../assets/images/logo2.png`)}  className="float-left" width="350px"/>
+                    <Row>
+                    <Col lg={6} className="text-lg-righ mt-4 mt-lg-0">
+                    <ul className = "list-unstyled mb-0">
+                      <li className = "text-lg-right" > <span>Electronic Solutions </span> </li>
+                      <li className = "text-lg-right"> <span>9001 Stockdale Hwy </span> </li>
+                      <li className = "text-lg-right"> <span>Bakersfield, CA  </span> </li>
+                      <li className = "text-lg-right"> <span>93311 </span> </li>
+                      <li className = "text-lg-right"> <span>support@esolutions.com </span> </li>
+                    </ul>
+                    </Col>
+                    </Row>
+                    </div>
+                    <br>
+                    </br>
                     <div className="delivery p-4 p-md-5 bg-light text-center">
                       <span className="h5">Expected Date Of Delivery</span>
                       <h2 className="mb-0 mt-2"> { date.toLocaleString('en-us', { month: 'long' }) } {new Date().getDay()+2}, {new Date().getFullYear()}  </h2>
@@ -206,9 +222,6 @@ const date = new Date();
                       No Items found
                     </div>
                     }
-                    <div className="d-sm-flex px-4 pb-4 px-md-5 pb-md-5">
-                      <Link className="button ml-auto" to="/">Go to home</Link>
-                    </div>
                   </div>
                 </Col>
               </Row>
