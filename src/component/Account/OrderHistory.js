@@ -170,12 +170,58 @@ class OrderHistory extends Component {
                               </td>
                               <td className="ordered-price">
                               <h6 className="mb-0">Price</h6>
-                              <span>${ViewOrderdata.price}.00</span>
+                              <span>$280.00</span>
                               </td>
                             </tr>
                           </tbody>
                         </table>
                         </div>
+                        <div className="table-responsive">
+                        <table class="table mb-0">
+                          <tbody>
+                            <tr className="ordered-item">
+                              <td className="ordered-image">
+                                 <img alt="img 01"  src={require(`../../assets/images/shop/mainpage/phone.jpeg`)} className="img-fluid" />
+                              </td>
+                              <td  className="ordered-name">
+                                <h6 className="mb-0">Product Name</h6>
+                                <span>iPhone11 Max Pro</span>
+                              </td>
+                              <td className="ordered-quantity">
+                                <h6 className="mb-0">Quantity</h6>
+                                <span>{ViewOrderdata.qty}</span>
+                              </td>
+                              <td className="ordered-price">
+                              <h6 className="mb-0">Price</h6>
+                              <span>$1100.00</span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        </div>
+                        <table class="table mb-0">
+                          <tbody>
+                            <tr className="ordered-item">
+                              <td className="ordered-image">
+                                 <img alt="img 01"  src={require(`../../assets/images/shop/mainpage/jbl.jpg`)} className="img-fluid" />
+                              </td>
+                              <td  className="ordered-name">
+                                <h6 className="mb-0">Product Name</h6>
+                                <span>JBL Speaker</span>
+                              </td>
+                              <td className="ordered-quantity">
+                                <h6 className="mb-0">Quantity</h6>
+                                <span>{ViewOrderdata.qty}</span>
+                              </td>
+                              <td className="ordered-price">
+                              <h6 className="mb-0">Price</h6>
+                              <span>$200.00</span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        </div>
+                        <div className="table-responsive">
                         <div className="table-responsive">
                         <table class="table total-table table-borderless mt-4 mb-0">
                           <tbody>
@@ -193,7 +239,7 @@ class OrderHistory extends Component {
                             </tr>
                             <tr className="border-top">
                             <td><strong className="h5">Total</strong></td>
-                              <td className="text-right h5"><strong>${ViewOrderdata.price + ViewOrderdata.tax + 50}.00</strong></td>
+                              <td className="text-right h5"><strong>$1650.03</strong></td>
                             </tr>
                           </tbody>
                         </table>

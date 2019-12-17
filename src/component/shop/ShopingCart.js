@@ -15,9 +15,9 @@ class ShopingCart extends Component {
             ShippingFlatRate: 1.50,
             ShippingLocalPickUp: 2.00,
             TotalShippingCarge: 1.50,
-            Adress1: "B-87,Erceru erpopnt",
-            Adress2: "Arndurm",
-            Adress3: "UK"
+            Adress1: "2145 2nd Street",
+            Adress2: "Bakersfield, CA",
+            Adress3: "US"
         }
 
         this.ReadCartItems = this.ReadCartItems.bind(this);

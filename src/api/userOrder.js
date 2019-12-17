@@ -8,7 +8,7 @@ export default [
         "date":"Oct 09, 2019",
         "status":"Sent",
         "payment":"Bank of America",
-        "price":280,
+        "price":1650.03,
         "debit":"$2,235.00",
         "tax":20.03,
         "action":"remove_red_eye"
